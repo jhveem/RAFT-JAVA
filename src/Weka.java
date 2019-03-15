@@ -28,7 +28,8 @@ public class Weka {
 	
 	String featureData;
 	String WekaInputName = "unlabeled.arff";
-
+	int score = 0;
+	
 	public void start() throws IOException, FileNotFoundException, ClassNotFoundException, UnsupportedEncodingException, InterruptedException, Exception {
         RandomForest rf = buildRandomForestModel();
         
@@ -52,7 +53,8 @@ public class Weka {
         for (int i = 0; i < unlabeled.numInstances(); i++) {
         	prediction = rf.classifyInstance(unlabeled.instance(i));
         	labeled.instance(i).setClassValue(prediction);
-        	System.out.println(labeled.classAttribute().value((int) prediction));
+        	//System.out.println(labeled.classAttribute().value((int) prediction));
+        	score = ((int) prediction + 1);
         }
 	}
 	
@@ -75,7 +77,26 @@ public class Weka {
 	}
 	
 	private void writeInputFile() throws IOException {
-		String wekaTop = readFile("weka_input_top.txt");
+		String wekaTop = "@relation arabicReadingDifficulty\r\n" + 
+				"\r\n" + 
+				"@attribute word_count NUMERIC\r\n" + 
+				"@attribute sentence_count NUMERIC\r\n" + 
+				"@attribute sentence_length NUMERIC\r\n" + 
+				"@attribute lemma_ratio NUMERIC\r\n" + 
+				"@attribute p95 NUMERIC\r\n" + 
+				"@attribute mean NUMERIC\r\n" + 
+				"@attribute median NUMERIC\r\n" + 
+				"@attribute noun NUMERIC\r\n" + 
+				"@attribute verb NUMERIC\r\n" + 
+				"@attribute prep NUMERIC\r\n" + 
+				"@attribute part NUMERIC\r\n" + 
+				"@attribute conj NUMERIC\r\n" + 
+				"@attribute adv NUMERIC	\r\n" + 
+				"@attribute adj NUMERIC\r\n"	 + 
+				"@attribute word_length NUMERIC\r\n" + 
+				"@attribute difficulty {1.0, 2.0, 3.0, 4.0}\r\n" + 
+				"\r\n" + 
+				"@data ";
 		File fWekaInput = new File(WekaInputName);
 		Writer writer = new BufferedWriter(new OutputStreamWriter
 				(new FileOutputStream(fWekaInput)));

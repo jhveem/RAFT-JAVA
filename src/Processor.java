@@ -24,8 +24,8 @@ import org.jsoup.select.Elements;
 
 public class Processor {
 	
-	public Processor(String webText /*,String madaInputName, String madaOutputName */) {
-		body = readFile(webText);
+	public Processor(String webText) {
+		body = webText;
 		lemmatizeText();
 		createLemmaList();
 		countSentences();
@@ -52,7 +52,7 @@ public class Processor {
 	private double median;
 	private double avgWordLen;
 	
-	private String readFile(String fileName) {
+	public static String readFile(String fileName) {
 		StringBuilder sb = new StringBuilder();
 		try {
 			File file = new File(fileName);
@@ -61,7 +61,7 @@ public class Processor {
 		    
 			String str;
 			while((str = reader.readLine()) != null) {
-					sb.append(str + "\n");				}
+					sb.append(str + " ");				}
 			
 			reader.close();
 			}
@@ -356,6 +356,8 @@ public class Processor {
 	 * Then finds that lemma's frequency in the freqList
 	 */
 	private void calcFreq95() {
+		System.out.println("check");
+		System.out.println(frequencies.size());
 		int index95 = (int) (frequencies.size() * .95);
 		freq95 = frequencies.get(index95);
 	}
@@ -426,7 +428,7 @@ public class Processor {
 		sb.append(",");
 		sb.append(1.0);
 		
-		System.out.println(sb.toString());
+		//System.out.println(sb.toString());
 		return sb.toString();
 	}
 	

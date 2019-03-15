@@ -82,7 +82,7 @@ public class Madamira {
 			// immediate deallocation of all system resources
 			httpclient.getConnectionManager().shutdown();
 		}
-		System.out.println("Connected");
+		//System.out.println("Connected");
 		return true;
 	}
 	// runs client standalone
