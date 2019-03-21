@@ -4,193 +4,112 @@
         <out_seg id="BODY">
             <segment_info/>
             <word_info>
-                <word id="0" word="قصة">
+                <word id="0" word="الكرة">
                     <svm_prediction>
-                        <morph_feature_set lemma="قِصَّةqiS~ap" pos="noun"/>
+                        <morph_feature_set lemma="كُرَةkurap" pos="noun"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.894255425187027">
-                        <morph_feature_set lemma="قِصَّة_1" pos="noun"/>
+                    <analysis rank="0" score="0.8840385512557991">
+                        <morph_feature_set lemma="كُرَة_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="قصة"/>
+                        <tok id="0" form0="الكرة"/>
                     </tokenized>
                 </word>
-                <word id="1" word="الحاسوب">
+                <word id="1" word="التى">
                     <svm_prediction>
-                        <morph_feature_set lemma="حاسُوبHAsuwb" pos="noun"/>
+                        <morph_feature_set lemma="الَّذِيAl~a*iy" pos="pron_rel"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.8889183115798678">
-                        <morph_feature_set lemma="حاسُوب_1" pos="noun"/>
+                    <analysis rank="0" score="0.8945079933398044">
+                        <morph_feature_set lemma="الَّذِي_1" pos="pron_rel"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="الحاسوب"/>
+                        <tok id="0" form0="التي"/>
                     </tokenized>
                 </word>
-                <word id="2" word="كوثر">
+                <word id="2" word="أحبهاقصة">
                     <svm_prediction>
-                        <morph_feature_set lemma="كَوْثَرkawovar" pos="noun_prop"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.8410242004474995">
-                        <morph_feature_set lemma="كَوْثَر_1" pos="noun_prop"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="كوثر"/>
-                    </tokenized>
-                </word>
-                <word id="3" word="حسين">
-                    <svm_prediction>
-                        <morph_feature_set lemma="حُسَيْنHusayon" pos="noun_prop"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="1.0">
-                        <morph_feature_set lemma="حُسَيْن_1" pos="noun_prop"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="حسين"/>
-                    </tokenized>
-                </word>
-                <word id="4" word="أحب">
-                    <svm_prediction>
-                        <morph_feature_set lemma="أَحَبّ&gt;aHab~" pos="verb"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.8453274094899743">
-                        <morph_feature_set lemma="أَحَبّ_1" pos="verb"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="احب"/>
-                    </tokenized>
-                </word>
-                <word id="5" word="أنا">
-                    <svm_prediction>
-                        <morph_feature_set lemma="أَنَّ&gt;an~a" pos="pron"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.8777731761596577">
-                        <morph_feature_set lemma="أَنا_1" pos="pron"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="انا"/>
-                    </tokenized>
-                </word>
-                <word id="6" word="الحاسوب">
-                    <svm_prediction>
-                        <morph_feature_set lemma="حاسُوبHAsuwb" pos="noun"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.8950630275921179">
-                        <morph_feature_set lemma="حاسُوب_1" pos="noun"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="الحاسوب"/>
-                    </tokenized>
-                </word>
-                <word id="7" word=" عن">
-                    <svm_prediction>
-                        <morph_feature_set lemma=" عن En" pos="adj"/>
+                        <morph_feature_set lemma="احبهاقصةAHbhAqSp" pos="verb"/>
                     </svm_prediction>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0=" عن"/>
+                        <tok id="0" form0="احبهاقصة"/>
                     </tokenized>
                 </word>
-                <word id="8" word="عشقه">
+                <word id="3" word="لأطفال">
                     <svm_prediction>
-                        <morph_feature_set lemma="عِشْقEi$oq" pos="noun"/>
+                        <morph_feature_set lemma="طِفْلTifol" pos="noun"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.8277380310673332">
-                        <morph_feature_set lemma="عِشْق_1" pos="noun"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="عشق"/>
-                        <tok id="1" form0="+ه"/>
-                    </tokenized>
-                </word>
-                <word id="9" word="لا">
-                    <svm_prediction>
-                        <morph_feature_set lemma="لاlA" pos="part_neg"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="1.0">
-                        <morph_feature_set lemma="لا_1" pos="part_neg"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="لا"/>
-                    </tokenized>
-                </word>
-                <word id="10" word="أتوب أجلس">
-                    <svm_prediction>
-                        <morph_feature_set lemma="اتوب اجلسAtwb Ajls" pos="verb"/>
-                    </svm_prediction>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="اتوب اجلس"/>
-                    </tokenized>
-                </word>
-                <word id="11" word="معه">
-                    <svm_prediction>
-                        <morph_feature_set lemma="مَعmaE" pos="noun"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="1.0">
-                        <morph_feature_set lemma="مَع_1" pos="prep"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="مع"/>
-                        <tok id="1" form0="+ه"/>
-                    </tokenized>
-                </word>
-                <word id="12" word="لساعاتٍ">
-                    <svm_prediction>
-                        <morph_feature_set lemma="ساعَةsAEap" pos="noun"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.8939173740322871">
-                        <morph_feature_set lemma="ساعَة_1" pos="noun"/>
+                    <analysis rank="0" score="0.8944178048308999">
+                        <morph_feature_set lemma="طِفْل_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
                         <tok id="0" form0="ل+"/>
-                        <tok id="1" form0="ساعات"/>
+                        <tok id="1" form0="اطفال"/>
                     </tokenized>
                 </word>
-                <word id="13" word="وساعاتِ حتى">
+                <word id="4" word="ما">
                     <svm_prediction>
-                        <morph_feature_set lemma="وساعات حتيwsAEAt Hty" pos="adj"/>
+                        <morph_feature_set lemma="ماmA" pos="pron_rel"/>
                     </svm_prediction>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="وساعات حتي"/>
-                    </tokenized>
-                </word>
-                <word id="14" word="أنسى">
-                    <svm_prediction>
-                        <morph_feature_set lemma="نَسِيnasiy" pos="noun"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.7877068683327828">
-                        <morph_feature_set lemma="أَنَسِيّ_1" pos="adj"/>
+                    <analysis rank="0" score="0.8946084067761285">
+                        <morph_feature_set lemma="ما_1" pos="pron_rel"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="انسي"/>
+                        <tok id="0" form0="ما"/>
                     </tokenized>
                 </word>
-                <word id="15" word="واجبات">
+                <word id="5" word="قبل">
                     <svm_prediction>
-                        <morph_feature_set lemma="واجِبwAjib" pos="noun"/>
+                        <morph_feature_set lemma="قَبِلqabil" pos="noun"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.8941664645259818">
-                        <morph_feature_set lemma="واجِب_1" pos="noun"/>
+                    <analysis rank="0" score="0.8705370026304016">
+                        <morph_feature_set lemma="قِبَل_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="واجبات"/>
+                        <tok id="0" form0="قبل"/>
                     </tokenized>
                 </word>
-                <word id="16" word=" تصرخ">
+                <word id="6" word="المدرسةعماد">
                     <svm_prediction>
-                        <morph_feature_set lemma=" تصرخ tSrx" pos="noun"/>
+                        <morph_feature_set lemma="المدرسةعمادAlmdrspEmAd" pos="noun"/>
                     </svm_prediction>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0=" تصرخ"/>
+                        <tok id="0" form0="المدرسةعماد"/>
                     </tokenized>
                 </word>
-                <word id="17" word="أمي،">
+                <word id="7" word="عبد">
                     <svm_prediction>
-                        <morph_feature_set lemma="امي،Amy،" pos="noun"/>
+                        <morph_feature_set lemma="عَبْدEabod" pos="noun_prop"/>
                     </svm_prediction>
+                    <analysis rank="0" score="0.8998215129572901">
+                        <morph_feature_set lemma="عَبْد_1" pos="noun_prop"/>
+                    </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="امي،"/>
+                        <tok id="0" form0="عبد"/>
                     </tokenized>
                 </word>
-                <word id="18" word="أنا">
+                <word id="8" word="الحكيم">
+                    <svm_prediction>
+                        <morph_feature_set lemma="حَكِيمHakiym" pos="noun_prop"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8947329513280597">
+                        <morph_feature_set lemma="حَكِيم_1" pos="noun_prop"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="الحكيم"/>
+                    </tokenized>
+                </word>
+                <word id="9" word="هلال">
+                    <svm_prediction>
+                        <morph_feature_set lemma="هِلالhilAl" pos="noun_prop"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8998215129572901">
+                        <morph_feature_set lemma="هِلال_2" pos="noun_prop"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="هلال"/>
+                    </tokenized>
+                </word>
+                <word id="10" word="أنا">
                     <svm_prediction>
                         <morph_feature_set lemma="أَنَّ&gt;an~a" pos="pron"/>
                     </svm_prediction>
@@ -201,102 +120,300 @@
                         <tok id="0" form0="انا"/>
                     </tokenized>
                 </word>
-                <word id="19" word="لا">
+                <word id="11" word="كرة">
                     <svm_prediction>
-                        <morph_feature_set lemma="لاlA" pos="part_neg"/>
+                        <morph_feature_set lemma="كُرَةkurap" pos="noun"/>
                     </svm_prediction>
-                    <analysis rank="0" score="1.0">
-                        <morph_feature_set lemma="لا_1" pos="part_neg"/>
+                    <analysis rank="0" score="0.8837559213663835">
+                        <morph_feature_set lemma="كُرَة_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="لا"/>
+                        <tok id="0" form0="كرة"/>
                     </tokenized>
                 </word>
-                <word id="20" word="أسمع">
+                <word id="12" word="حمراء..">
                     <svm_prediction>
-                        <morph_feature_set lemma="سَمِعsamiE" pos="verb"/>
+                        <morph_feature_set lemma="حمراء..HmrA'.." pos="adj"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.855625882398956">
-                        <morph_feature_set lemma="سَمِع-َ_1" pos="verb"/>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="حمراء.."/>
+                    </tokenized>
+                </word>
+                <word id="13" word="أعمل">
+                    <svm_prediction>
+                        <morph_feature_set lemma="عَمِلEamil" pos="verb"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.809280931610966">
+                        <morph_feature_set lemma="أَعْمَل_1" pos="verb"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="اسمع"/>
+                        <tok id="0" form0="اعمل"/>
                     </tokenized>
                 </word>
-                <word id="21" word=" وأبي">
+                <word id="14" word="في">
                     <svm_prediction>
-                        <morph_feature_set lemma=" وابي wAby" pos="noun"/>
+                        <morph_feature_set lemma="فِيfiy" pos="prep"/>
                     </svm_prediction>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0=" وابي"/>
-                    </tokenized>
-                </word>
-                <word id="22" word="بتهديده">
-                    <svm_prediction>
-                        <morph_feature_set lemma="تَهْدِيدtahodiyd" pos="noun"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.8939533673902794">
-                        <morph_feature_set lemma="تَهْدِيد_1" pos="noun"/>
+                    <analysis rank="0" score="0.9028887140500753">
+                        <morph_feature_set lemma="فِي_1" pos="prep"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="ب+"/>
-                        <tok id="1" form0="تهديد"/>
-                        <tok id="2" form0="+ه"/>
+                        <tok id="0" form0="في"/>
                     </tokenized>
                 </word>
-                <word id="23" word="لا">
+                <word id="15" word="صمتوأنا">
                     <svm_prediction>
-                        <morph_feature_set lemma="لاlA" pos="part_neg"/>
+                        <morph_feature_set lemma="صمتواناSmtwAnA" pos="noun"/>
                     </svm_prediction>
-                    <analysis rank="0" score="1.0">
-                        <morph_feature_set lemma="لا_1" pos="part_neg"/>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="صمتوانا"/>
+                    </tokenized>
+                </word>
+                <word id="16" word="كرة">
+                    <svm_prediction>
+                        <morph_feature_set lemma="كُرَةkurap" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8841970447888736">
+                        <morph_feature_set lemma="كُرَة_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="لا"/>
+                        <tok id="0" form0="كرة"/>
                     </tokenized>
                 </word>
-                <word id="24" word="ينفع">
+                <word id="17" word="بيضاء.. أعمل">
                     <svm_prediction>
-                        <morph_feature_set lemma="نَفَعnafaE" pos="verb"/>
+                        <morph_feature_set lemma="بيضاء.. اعملbyDA'.. AEml" pos="noun"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.8453274094899743">
-                        <morph_feature_set lemma="نَفَع-َ_1" pos="verb"/>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="بيضاء.. اعمل"/>
+                    </tokenized>
+                </word>
+                <word id="18" word="في">
+                    <svm_prediction>
+                        <morph_feature_set lemma="فِيfiy" pos="prep"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.9028887140500753">
+                        <morph_feature_set lemma="فِي_1" pos="prep"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="ينفع"/>
+                        <tok id="0" form0="في"/>
                     </tokenized>
                 </word>
-                <word id="25" word=" وفجأة">
+                <word id="19" word="صمتأما">
                     <svm_prediction>
-                        <morph_feature_set lemma=" وفجاة wfjAp" pos="noun"/>
+                        <morph_feature_set lemma="صمتاماSmtAmA" pos="noun"/>
                     </svm_prediction>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0=" وفجاة"/>
+                        <tok id="0" form0="صمتاما"/>
                     </tokenized>
                 </word>
-                <word id="26" word="ذات">
+                <word id="20" word="أنا">
                     <svm_prediction>
-                        <morph_feature_set lemma="ذات*At" pos="noun"/>
+                        <morph_feature_set lemma="أَنَّ&gt;an~a" pos="pron"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.8866756788017508">
-                        <morph_feature_set lemma="ذات_1" pos="noun"/>
+                    <analysis rank="0" score="0.8292743365588489">
+                        <morph_feature_set lemma="أَنا_1" pos="pron"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="ذات"/>
+                        <tok id="0" form0="انا"/>
                     </tokenized>
                 </word>
-                <word id="27" word="مساء">
+                <word id="21" word="فكرة">
                     <svm_prediction>
-                        <morph_feature_set lemma="مَساءmasA'" pos="noun"/>
+                        <morph_feature_set lemma="كُرَةkurap" pos="noun"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.8362982303873165">
-                        <morph_feature_set lemma="مَساء_1" pos="noun"/>
+                    <analysis rank="0" score="0.8680583686175245">
+                        <morph_feature_set lemma="فِكْرَة_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="مساء"/>
+                        <tok id="0" form0="فكرة"/>
                     </tokenized>
                 </word>
-                <word id="28" word="وأنا">
+                <word id="22" word="قدم">
+                    <svm_prediction>
+                        <morph_feature_set lemma="قَدَمqadam" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.7866169339124897">
+                        <morph_feature_set lemma="قَدَم_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="قدم"/>
+                    </tokenized>
+                </word>
+                <word id="23" word="..أعمل">
+                    <svm_prediction>
+                        <morph_feature_set lemma="..اعمل..AEml" pos="noun"/>
+                    </svm_prediction>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="..اعمل"/>
+                    </tokenized>
+                </word>
+                <word id="24" word="وسط">
+                    <svm_prediction>
+                        <morph_feature_set lemma="وَسْطwasoT" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8873965659541032">
+                        <morph_feature_set lemma="وَسْط_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="وسط"/>
+                    </tokenized>
+                </word>
+                <word id="25" word="صخب">
+                    <svm_prediction>
+                        <morph_feature_set lemma="صَخَبSaxab" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8873965659541032">
+                        <morph_feature_set lemma="صَخَب_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="صخب"/>
+                    </tokenized>
+                </word>
+                <word id="26" word="وهتاف">
+                    <svm_prediction>
+                        <morph_feature_set lemma="هُتافhutAf" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8836702325594101">
+                        <morph_feature_set lemma="هُتاف_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="و+"/>
+                        <tok id="1" form0="هتاف"/>
+                    </tokenized>
+                </word>
+                <word id="27" word="أنا">
+                    <svm_prediction>
+                        <morph_feature_set lemma="أَنَّ&gt;an~a" pos="pron"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8777731761596577">
+                        <morph_feature_set lemma="أَنا_1" pos="pron"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="انا"/>
+                    </tokenized>
+                </word>
+                <word id="28" word="كرة">
+                    <svm_prediction>
+                        <morph_feature_set lemma="كُرَةkurap" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8837559213663835">
+                        <morph_feature_set lemma="كُرَة_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="كرة"/>
+                    </tokenized>
+                </word>
+                <word id="29" word="حمراء..">
+                    <svm_prediction>
+                        <morph_feature_set lemma="حمراء..HmrA'.." pos="adj"/>
+                    </svm_prediction>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="حمراء.."/>
+                    </tokenized>
+                </word>
+                <word id="30" word="أجرى">
+                    <svm_prediction>
+                        <morph_feature_set lemma="جَرَىjaraY" pos="verb"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8793789716893781">
+                        <morph_feature_set lemma="أَجْرَى_1" pos="verb"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="اجري"/>
+                    </tokenized>
+                </word>
+                <word id="31" word="في">
+                    <svm_prediction>
+                        <morph_feature_set lemma="فِيfiy" pos="prep"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.9028887140500753">
+                        <morph_feature_set lemma="فِي_1" pos="prep"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="في"/>
+                    </tokenized>
+                </word>
+                <word id="32" word="الدم">
+                    <svm_prediction>
+                        <morph_feature_set lemma="دَمdam" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8992167844888498">
+                        <morph_feature_set lemma="دَم_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="الدم"/>
+                    </tokenized>
+                </word>
+                <word id="33" word="وأحمل">
+                    <svm_prediction>
+                        <morph_feature_set lemma="حَمَلHamal" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8134798994332675">
+                        <morph_feature_set lemma="أَحْمَل_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="و+"/>
+                        <tok id="1" form0="احمل"/>
+                    </tokenized>
+                </word>
+                <word id="34" word="الغذاء">
+                    <svm_prediction>
+                        <morph_feature_set lemma="غِذاءgi*A'" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8992167844888498">
+                        <morph_feature_set lemma="غِذاء_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="الغذاء"/>
+                    </tokenized>
+                </word>
+                <word id="35" word="والأوكسجين">
+                    <svm_prediction>
+                        <morph_feature_set lemma="أُوكْسِجِين&gt;uwkosijiyn" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8840377328850475">
+                        <morph_feature_set lemma="أُوكْسِجِين_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="و+"/>
+                        <tok id="1" form0="الاوكسجين"/>
+                    </tokenized>
+                </word>
+                <word id="36" word="إلى">
+                    <svm_prediction>
+                        <morph_feature_set lemma="إِلَى&lt;ilaY" pos="prep"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.9028887140500753">
+                        <morph_feature_set lemma="إِلَى_1" pos="prep"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="الي"/>
+                    </tokenized>
+                </word>
+                <word id="37" word="خلايا">
+                    <svm_prediction>
+                        <morph_feature_set lemma="خَلِيَّةxaliy~ap" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8944319152280099">
+                        <morph_feature_set lemma="خَلِيَّة_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="خلايا"/>
+                    </tokenized>
+                </word>
+                <word id="38" word="الجسم">
+                    <svm_prediction>
+                        <morph_feature_set lemma="جِسْمjisom" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8992167844888498">
+                        <morph_feature_set lemma="جِسْم_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="الجسم"/>
+                    </tokenized>
+                </word>
+                <word id="39" word="وأنا">
                     <svm_prediction>
                         <morph_feature_set lemma="أَنَّ&gt;an~a" pos="pron"/>
                     </svm_prediction>
@@ -308,276 +425,353 @@
                         <tok id="1" form0="انا"/>
                     </tokenized>
                 </word>
-                <word id="29" word="جالس">
+                <word id="40" word="كرة">
                     <svm_prediction>
-                        <morph_feature_set lemma="جالِسjAlis" pos="verb"/>
+                        <morph_feature_set lemma="كُرَةkurap" pos="noun"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.7654613906340839">
-                        <morph_feature_set lemma="جالِس_1" pos="noun"/>
+                    <analysis rank="0" score="0.8837559213663835">
+                        <morph_feature_set lemma="كُرَة_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="جالس"/>
+                        <tok id="0" form0="كرة"/>
                     </tokenized>
                 </word>
-                <word id="30" word="يا">
+                <word id="41" word="بيضاء">
                     <svm_prediction>
-                        <morph_feature_set lemma="ياyA" pos="part_voc"/>
+                        <morph_feature_set lemma="أَبْيَض&gt;aboyaD" pos="adj"/>
                     </svm_prediction>
-                    <analysis rank="0" score="1.0">
-                        <morph_feature_set lemma="يا_1" pos="part_voc"/>
+                    <analysis rank="0" score="0.8275553620956514">
+                        <morph_feature_set lemma="أَبْيَض_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="يا"/>
+                        <tok id="0" form0="بيضاء"/>
                     </tokenized>
                 </word>
-                <word id="31" word="أصدقاء">
+                <word id="42" word="..أدافع">
                     <svm_prediction>
-                        <morph_feature_set lemma="صَدِيقSadiyq" pos="noun"/>
+                        <morph_feature_set lemma="..ادافع..AdAfE" pos="verb"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.8866756788017508">
-                        <morph_feature_set lemma="صَدِيق_1" pos="noun"/>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="..ادافع"/>
+                    </tokenized>
+                </word>
+                <word id="43" word="عن">
+                    <svm_prediction>
+                        <morph_feature_set lemma="عَنEan" pos="prep"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.9028887140500753">
+                        <morph_feature_set lemma="عَن_1" pos="prep"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="اصدقاء"/>
+                        <tok id="0" form0="عن"/>
                     </tokenized>
                 </word>
-                <word id="32" word=" أمام">
+                <word id="44" word="الجسم">
                     <svm_prediction>
-                        <morph_feature_set lemma=" امام AmAm" pos="noun"/>
-                    </svm_prediction>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0=" امام"/>
-                    </tokenized>
-                </word>
-                <word id="33" word="الجهاز">
-                    <svm_prediction>
-                        <morph_feature_set lemma="جِهازjihAz" pos="noun"/>
+                        <morph_feature_set lemma="جِسْمjisom" pos="noun"/>
                     </svm_prediction>
                     <analysis rank="0" score="0.8992167844888498">
-                        <morph_feature_set lemma="جِهاز_1" pos="noun"/>
+                        <morph_feature_set lemma="جِسْم_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="الجهاز"/>
+                        <tok id="0" form0="الجسم"/>
                     </tokenized>
                 </word>
-                <word id="34" word="الحبيب">
+                <word id="45" word="ضد">
                     <svm_prediction>
-                        <morph_feature_set lemma="حَبِيبHabiyb" pos="noun_prop"/>
+                        <morph_feature_set lemma="ضِدّDid~" pos="noun"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.8462341117272509">
-                        <morph_feature_set lemma="حَبِيب_1" pos="noun_prop"/>
+                    <analysis rank="0" score="0.8969741517107328">
+                        <morph_feature_set lemma="ضِدّ_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="الحبيب"/>
+                        <tok id="0" form0="ضد"/>
                     </tokenized>
                 </word>
-                <word id="35" word=" سمعت">
+                <word id="46" word="الميكروبات">
                     <svm_prediction>
-                        <morph_feature_set lemma=" سمعت smEt" pos="verb"/>
+                        <morph_feature_set lemma="مِيكْرُوبmiykoruwb" pos="noun"/>
                     </svm_prediction>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0=" سمعت"/>
-                    </tokenized>
-                </word>
-                <word id="36" word="صوت">
-                    <svm_prediction>
-                        <morph_feature_set lemma="صَوْتSawot" pos="noun"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.895576339810859">
-                        <morph_feature_set lemma="صَوْت_1" pos="noun"/>
+                    <analysis rank="0" score="0.8947650584943242">
+                        <morph_feature_set lemma="مِيكْرُوب_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="صوت"/>
+                        <tok id="0" form0="الميكروبات"/>
                     </tokenized>
                 </word>
-                <word id="37" word="غريب">
+                <word id="47" word="والجراثيمأنا">
                     <svm_prediction>
-                        <morph_feature_set lemma="غَرِيبgariyb" pos="noun_prop"/>
+                        <morph_feature_set lemma="والجراثيماناwAljrAvymAnA" pos="noun"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.8261575501957776">
-                        <morph_feature_set lemma="غَرِيب_2" pos="noun"/>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="والجراثيمانا"/>
+                    </tokenized>
+                </word>
+                <word id="48" word="خط">
+                    <svm_prediction>
+                        <morph_feature_set lemma="خَطّxaT~" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8976950388630852">
+                        <morph_feature_set lemma="خَطّ_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="غريب"/>
+                        <tok id="0" form0="خط"/>
                     </tokenized>
                 </word>
-                <word id="38" word="أصابني">
+                <word id="49" word="دفاع">
                     <svm_prediction>
-                        <morph_feature_set lemma="أَصاب&gt;aSAb" pos="verb"/>
+                        <morph_feature_set lemma="دِفاعdifAE" pos="noun"/>
                     </svm_prediction>
-                    <analysis rank="0" score="1.0">
-                        <morph_feature_set lemma="أَصاب_1" pos="verb"/>
+                    <analysis rank="0" score="0.8976950388630852">
+                        <morph_feature_set lemma="دِفاع_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="اصاب"/>
-                        <tok id="1" form0="+ني"/>
+                        <tok id="0" form0="دفاع"/>
                     </tokenized>
                 </word>
-                <word id="39" word="منك">
+                <word id="50" word="ضد">
                     <svm_prediction>
-                        <morph_feature_set lemma="مِنmin" pos="prep"/>
+                        <morph_feature_set lemma="ضِدّDid~" pos="noun"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.8939034674996861">
-                        <morph_feature_set lemma="مِن_1" pos="prep"/>
+                    <analysis rank="0" score="0.8969741517107328">
+                        <morph_feature_set lemma="ضِدّ_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="من"/>
-                        <tok id="1" form0="+ك"/>
+                        <tok id="0" form0="ضد"/>
                     </tokenized>
                 </word>
-                <word id="40" word="ملل">
+                <word id="51" word="الأمراض">
                     <svm_prediction>
-                        <morph_feature_set lemma="مَلَلmalal" pos="noun"/>
+                        <morph_feature_set lemma="مَرَضmaraD" pos="noun"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.895576339810859">
-                        <morph_feature_set lemma="مَلَل_1" pos="noun"/>
+                    <analysis rank="0" score="0.8992167844888498">
+                        <morph_feature_set lemma="مَرَض_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="ملل"/>
+                        <tok id="0" form0="الامراض"/>
                     </tokenized>
                 </word>
-                <word id="41" word=" ستصاب">
+                <word id="52" word="وأنا">
                     <svm_prediction>
-                        <morph_feature_set lemma=" ستصاب stSAb" pos="noun"/>
+                        <morph_feature_set lemma="أَنَّ&gt;an~a" pos="pron"/>
                     </svm_prediction>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0=" ستصاب"/>
-                    </tokenized>
-                </word>
-                <word id="42" word="عاجلاً">
-                    <svm_prediction>
-                        <morph_feature_set lemma="عاجِلEAjil" pos="adj"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.8256884121246769">
-                        <morph_feature_set lemma="عاجِل_1" pos="noun"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="عاجلا"/>
-                    </tokenized>
-                </word>
-                <word id="43" word="بالخَبل">
-                    <svm_prediction>
-                        <morph_feature_set lemma="خَبْلxabol" pos="noun"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.8838712637762707">
-                        <morph_feature_set lemma="خَبْل_1" pos="noun"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="ب+"/>
-                        <tok id="1" form0="الخبل"/>
-                    </tokenized>
-                </word>
-                <word id="44" word="هذا">
-                    <svm_prediction>
-                        <morph_feature_set lemma="هٰذاh`*A" pos="pron_dem"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="1.0">
-                        <morph_feature_set lemma="هٰذا_1" pos="pron_dem"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="هذا"/>
-                    </tokenized>
-                </word>
-                <word id="45" word="صوت">
-                    <svm_prediction>
-                        <morph_feature_set lemma="صَوْتSawot" pos="noun"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.8873965659541032">
-                        <morph_feature_set lemma="صَوْت_1" pos="noun"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="صوت"/>
-                    </tokenized>
-                </word>
-                <word id="46" word="الحاسوب">
-                    <svm_prediction>
-                        <morph_feature_set lemma="حاسُوبHAsuwb" pos="noun"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.8889183115798678">
-                        <morph_feature_set lemma="حاسُوب_1" pos="noun"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="الحاسوب"/>
-                    </tokenized>
-                </word>
-                <word id="47" word=" يعاتب">
-                    <svm_prediction>
-                        <morph_feature_set lemma=" يعاتب yEAtb" pos="noun"/>
-                    </svm_prediction>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0=" يعاتب"/>
-                    </tokenized>
-                </word>
-                <word id="48" word="المحبوب">
-                    <svm_prediction>
-                        <morph_feature_set lemma="مَحْبُوبmaHobuwb" pos="noun"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.8889183115798678">
-                        <morph_feature_set lemma="مَحْبُوب_1" pos="noun"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="المحبوب"/>
-                    </tokenized>
-                </word>
-                <word id="49" word=" فهمت">
-                    <svm_prediction>
-                        <morph_feature_set lemma=" فهمت fhmt" pos="verb"/>
-                    </svm_prediction>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0=" فهمت"/>
-                    </tokenized>
-                </word>
-                <word id="50" word="الرسالة">
-                    <svm_prediction>
-                        <morph_feature_set lemma="رِسالَةrisAlap" pos="noun"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.8856549817245463">
-                        <morph_feature_set lemma="رِسالَة_1" pos="noun"/>
-                    </analysis>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0="الرسالة"/>
-                    </tokenized>
-                </word>
-                <word id="51" word=" ">
-                    <svm_prediction>
-                        <morph_feature_set lemma="  " pos="adj"/>
-                    </svm_prediction>
-                    <tokenized scheme="ATB">
-                        <tok id="0" form0=" "/>
-                    </tokenized>
-                </word>
-                <word id="52" word="وشفيت">
-                    <svm_prediction>
-                        <morph_feature_set lemma="شَفَى$afaY" pos="verb"/>
-                    </svm_prediction>
-                    <analysis rank="0" score="0.8836092892599009">
-                        <morph_feature_set lemma="شَفَى_1" pos="verb"/>
+                    <analysis rank="0" score="0.8777656093661222">
+                        <morph_feature_set lemma="أَنا_1" pos="pron"/>
                     </analysis>
                     <tokenized scheme="ATB">
                         <tok id="0" form0="و+"/>
-                        <tok id="1" form0="شفيت"/>
+                        <tok id="1" form0="انا"/>
                     </tokenized>
                 </word>
-                <word id="53" word="من">
+                <word id="53" word="كرة">
                     <svm_prediction>
-                        <morph_feature_set lemma="مِنmin" pos="prep"/>
+                        <morph_feature_set lemma="كُرَةkurap" pos="noun"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.9028887140500753">
-                        <morph_feature_set lemma="مِن_1" pos="prep"/>
+                    <analysis rank="0" score="0.8839569522780454">
+                        <morph_feature_set lemma="كُرَة_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="من"/>
+                        <tok id="0" form0="كرة"/>
                     </tokenized>
                 </word>
-                <word id="54" word="الحالة">
+                <word id="54" word="قدميركلنى">
                     <svm_prediction>
-                        <morph_feature_set lemma="حالَةHAlap" pos="noun"/>
+                        <morph_feature_set lemma="قدميركلنيqdmyrklny" pos="adj"/>
                     </svm_prediction>
-                    <analysis rank="0" score="0.8959534546335282">
-                        <morph_feature_set lemma="حالَة_1" pos="noun"/>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="قدميركلني"/>
+                    </tokenized>
+                </word>
+                <word id="55" word="الأولاد">
+                    <svm_prediction>
+                        <morph_feature_set lemma="وَلَدwalad" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8992167844888498">
+                        <morph_feature_set lemma="وَلَد_1" pos="noun"/>
                     </analysis>
                     <tokenized scheme="ATB">
-                        <tok id="0" form0="الحالة"/>
+                        <tok id="0" form0="الاولاد"/>
+                    </tokenized>
+                </word>
+                <word id="56" word="بأقدامهم">
+                    <svm_prediction>
+                        <morph_feature_set lemma="قَدَمqadam" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8836131749135966">
+                        <morph_feature_set lemma="قَدَم_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="ب+"/>
+                        <tok id="1" form0="اقدام"/>
+                        <tok id="2" form0="+هم"/>
+                    </tokenized>
+                </word>
+                <word id="57" word="ويقذفوننى">
+                    <svm_prediction>
+                        <morph_feature_set lemma="قَذَفqa*af" pos="verb"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8944276402223664">
+                        <morph_feature_set lemma="قَذَف-ِ_1" pos="verb"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="و+"/>
+                        <tok id="1" form0="يقذفون"/>
+                        <tok id="2" form0="+ني"/>
+                    </tokenized>
+                </word>
+                <word id="58" word="بأيديهم">
+                    <svm_prediction>
+                        <morph_feature_set lemma="يَدyad" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8939010134081142">
+                        <morph_feature_set lemma="يَد_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="ب+"/>
+                        <tok id="1" form0="ايدي"/>
+                        <tok id="2" form0="+هم"/>
+                    </tokenized>
+                </word>
+                <word id="59" word="أنا">
+                    <svm_prediction>
+                        <morph_feature_set lemma="أَنَّ&gt;an~a" pos="pron"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8777731761596577">
+                        <morph_feature_set lemma="أَنا_1" pos="pron"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="انا"/>
+                    </tokenized>
+                </word>
+                <word id="60" word="كرة">
+                    <svm_prediction>
+                        <morph_feature_set lemma="كُرَةkurap" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8839569522780454">
+                        <morph_feature_set lemma="كُرَة_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="كرة"/>
+                    </tokenized>
+                </word>
+                <word id="61" word="دم">
+                    <svm_prediction>
+                        <morph_feature_set lemma="دَمdam" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8840070570614899">
+                        <morph_feature_set lemma="دَم_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="دم"/>
+                    </tokenized>
+                </word>
+                <word id="62" word="حمراءوأنا">
+                    <svm_prediction>
+                        <morph_feature_set lemma="حمراءواناHmrA'wAnA" pos="adj"/>
+                    </svm_prediction>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="حمراءوانا"/>
+                    </tokenized>
+                </word>
+                <word id="63" word="كرة">
+                    <svm_prediction>
+                        <morph_feature_set lemma="كُرَةkurap" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8849539284493109">
+                        <morph_feature_set lemma="كُرَة_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="كرة"/>
+                    </tokenized>
+                </word>
+                <word id="64" word="دم">
+                    <svm_prediction>
+                        <morph_feature_set lemma="دَمdam" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8873965659541032">
+                        <morph_feature_set lemma="دَم_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="دم"/>
+                    </tokenized>
+                </word>
+                <word id="65" word="بيضاءأما">
+                    <svm_prediction>
+                        <morph_feature_set lemma="بيضاءاماbyDA'AmA" pos="noun"/>
+                    </svm_prediction>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="بيضاءاما"/>
+                    </tokenized>
+                </word>
+                <word id="66" word="أنا">
+                    <svm_prediction>
+                        <morph_feature_set lemma="أَنَّ&gt;an~a" pos="pron"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8292743365588489">
+                        <morph_feature_set lemma="أَنا_1" pos="pron"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="انا"/>
+                    </tokenized>
+                </word>
+                <word id="67" word="كرة">
+                    <svm_prediction>
+                        <morph_feature_set lemma="كُرَةkurap" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8841970447888736">
+                        <morph_feature_set lemma="كُرَة_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="كرة"/>
+                    </tokenized>
+                </word>
+                <word id="68" word="قدمفأى">
+                    <svm_prediction>
+                        <morph_feature_set lemma="قدمفايqdmfAy" pos="adj"/>
+                    </svm_prediction>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="قدمفاي"/>
+                    </tokenized>
+                </word>
+                <word id="69" word="كرة">
+                    <svm_prediction>
+                        <morph_feature_set lemma="كُرَةkurap" pos="noun"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8943274124611241">
+                        <morph_feature_set lemma="كُرَة_1" pos="noun"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="كرة"/>
+                    </tokenized>
+                </word>
+                <word id="70" word="تحب">
+                    <svm_prediction>
+                        <morph_feature_set lemma="أَحَبّ&gt;aHab~" pos="verb"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="0.8453274094899743">
+                        <morph_feature_set lemma="أَحَبّ_1" pos="verb"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="تحب"/>
+                    </tokenized>
+                </word>
+                <word id="71" word="..">
+                    <svm_prediction>
+                        <morph_feature_set lemma="...." pos="punc"/>
+                    </svm_prediction>
+                    <analysis rank="0" score="1.0">
+                        <morph_feature_set lemma=".._0" pos="punc"/>
+                    </analysis>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0=".."/>
+                    </tokenized>
+                </word>
+                <word id="72" word="؟">
+                    <svm_prediction>
+                        <morph_feature_set lemma="؟؟" pos="adj"/>
+                    </svm_prediction>
+                    <tokenized scheme="ATB">
+                        <tok id="0" form0="؟"/>
                     </tokenized>
                 </word>
             </word_info>

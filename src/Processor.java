@@ -1,11 +1,9 @@
 import java.io.File;
 import java.io.Writer;
-import java.net.URL;
 import java.io.BufferedWriter;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.OutputStreamWriter;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
@@ -28,12 +26,16 @@ public class Processor {
 		body = webText;
 		lemmatizeText();
 		createLemmaList();
-		countSentences();
-		createFrequencies();
-		calcFreq95();
-		calcMean();
-		calcMedian();
-		calcAvgWordLen();
+		if (wordCount > 0) {
+			countSentences();
+			createFrequencies();
+			if (frequencies.size() > 0) {
+				calcFreq95();
+				calcMean();
+				calcMedian();
+				calcAvgWordLen();
+			}
+		}
 	}
 	
 	private Document madaOutput;
@@ -52,10 +54,23 @@ public class Processor {
 	private double median;
 	private double avgWordLen;
 	
-	public static String readFile(String fileName) {
+	public static String GetTagContents(String text, String tagName) {
+		String contents = "";
+		Document processedText;
+		processedText = Jsoup.parse(text, "UTF-8");
+		try {
+			Element contentsElement = processedText.select(tagName).first();
+			contents = contentsElement.ownText();
+		} 
+		catch(Exception e) {
+			contents = "";
+		}
+		return contents;
+	}
+	
+	public static String ReadFileContents(File file) {
 		StringBuilder sb = new StringBuilder();
 		try {
-			File file = new File(fileName);
 			BufferedReader reader = new BufferedReader(new InputStreamReader(
 					new FileInputStream(file), "UTF8"));
 		    
@@ -77,6 +92,13 @@ public class Processor {
 			e.printStackTrace();
 		}
 		return sb.toString();
+		
+	}
+	
+	public static String ReadFile(String fileName) {
+		File file = new File(fileName);
+		String contents = ReadFileContents(file);
+		return contents;
 	}
 	
 	private String readResourceFile(String fileName) {
@@ -134,7 +156,7 @@ public class Processor {
 		}
 		
 		Madamira.lemmatize(8223, "http://localhost:", input, output);
-		madaOutput = Jsoup.parse(readFile(output));
+		madaOutput = Jsoup.parse(ReadFile(output));
 	}
 	
 	/*
@@ -356,10 +378,12 @@ public class Processor {
 	 * Then finds that lemma's frequency in the freqList
 	 */
 	private void calcFreq95() {
-		System.out.println("check");
-		System.out.println(frequencies.size());
 		int index95 = (int) (frequencies.size() * .95);
-		freq95 = frequencies.get(index95);
+		if (index95 > 0) {
+			freq95 = frequencies.get(index95);
+		} else {
+			freq95 = 0;
+		}
 	}
 	
 	// calculates the mean frequency
@@ -395,38 +419,38 @@ public class Processor {
 	//returns a string result of all the desired stats
 	public String getResult() {
 		StringBuilder sb = new StringBuilder();
-		
-		sb.append((double) wordCount);
-		sb.append(",");
-		sb.append((double) sentCount);
-		sb.append(",");
-		sb.append(avgSentLen);
-		sb.append(",");
-		sb.append(lexDiv);
-		sb.append(",");
-		sb.append(freq95);
-		sb.append(",");
-		sb.append(mean);
-		sb.append(",");
-		sb.append(median);
-		sb.append(",");
-		sb.append((double) POSList.get("noun") / (double) wordCount);
-		sb.append(",");
-		sb.append((double) POSList.get("verb") / (double) wordCount);
-		sb.append(",");
-		sb.append((double) POSList.get("prep") / (double) wordCount);
-		sb.append(",");
-		sb.append((double) POSList.get("part") / (double) wordCount); 
-		sb.append(",");
-		sb.append((double) POSList.get("conj") / (double) wordCount);
-		sb.append(",");
-		sb.append((double) POSList.get("adv") / (double) wordCount);
-		sb.append(",");
-		sb.append((double) POSList.get("adj") / (double) wordCount);
-		sb.append(",");
-		sb.append(avgWordLen);
-		sb.append(",");
-		sb.append(1.0);
+		if (wordCount > 0 && frequencies.size() > 0) {
+			//sb.append((double) wordCount);
+			//sb.append(",");
+			//sb.append((double) sentCount);
+			//sb.append(",");
+			sb.append(avgSentLen);
+			sb.append(",");
+			sb.append(lexDiv);
+			sb.append(",");
+			sb.append(freq95);
+			sb.append(",");
+			sb.append(mean);
+			sb.append(",");
+			sb.append(median);
+			sb.append(",");
+			sb.append((double) POSList.get("noun") / (double) wordCount);
+			sb.append(",");
+			sb.append((double) POSList.get("verb") / (double) wordCount);
+			sb.append(",");
+			sb.append((double) POSList.get("prep") / (double) wordCount);
+			sb.append(",");
+			sb.append((double) POSList.get("part") / (double) wordCount); 
+			sb.append(",");
+			sb.append((double) POSList.get("conj") / (double) wordCount);
+			sb.append(",");
+			sb.append((double) POSList.get("adv") / (double) wordCount);
+			sb.append(",");
+			sb.append((double) POSList.get("adj") / (double) wordCount);
+			sb.append(",");
+			sb.append(avgWordLen);
+			sb.append(",");
+		}
 		
 		//System.out.println(sb.toString());
 		return sb.toString();
